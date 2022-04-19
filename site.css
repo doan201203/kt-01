@@ -33,7 +33,7 @@ html {
 }
 
 .home{
-    background: url(./images/head-background.jpg) top center / cover no-repeat;
+    background: url(../images/head-background.jpg) top center / cover no-repeat;
     height: 70rem;
 }
 

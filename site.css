@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+:root {
+    --box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
+    --border: 1rem solid #fff;
+    --grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    --color_line:#2A6E01;
+    --btn:#CED086;
+    --bg:#678B37;
+    --bg_green: #49A333;
+    --color__font:#2D8C15;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+.half{
+    padding: 2rem 20%;
+}
+
+.home{
+    background: url('../images/head-background.jpg') top center / cover no-repeat;
+    height: 70rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    top: 0;    
+    background: none;
+    margin: 2rem 20%;
+    border-bottom: 0.1rem solid #CED086;
+}
+
+.header .logo{
+    width: 32rem;
+    height: 20rem;
+}   
+
+.header .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header .hotline{
+    background-color: var(--color_line);
+    padding: .5rem 2rem;
+    font-size: 2.7rem;
+}
+
+.header .hotline a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.registration{
+    padding: 1rem;
+    background-color: #81AF53;
+    border: .5rem solid #CED086;
+    margin: 2rem 20%;
+    width: 30rem;
+}
+
+.registration .heading_form {
+    text-align: center;
+}
+
+.registration .heading_form h3{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+}
+
+.registration .heading_form span{
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.registration .input{
+    display: flex;
+    flex-direction: column;
+}
+
+.registration .input input{
+    background: none;
+    padding: 1rem;
+    color: rgba(255, 255, 255);
+    border-bottom: .1rem solid rgba(255, 255, 255, 0.9);
+    text-transform: capitalize;
+    margin-top: .9rem;
+    border-top: .1rem solid rgba(255, 255, 255, 0.2);
+    
+}
+
+.registration .input input::placeholder{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.registration .input .btn{
+    text-align: center;
+    background-color: #CED086;
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.mid{
+    display: flex;
+    gap: 2rem;
+}
+
+.mid .mid_img{
+    flex: 1 1;
+}
+
+.mid .mid_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;    border: .2rem #2A6E01 dashed;
+
+}
+
+
+.mid .sub_mid{
+    flex: 1 1;
+}
+
+.mid .sub_mid .heading{
+    text-align: center;
+    color: var(--color__font);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.mid .sub_heading{
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.two{
+    flex-direction: row-reverse;
+}
+
+.two .sub_mid_two{
+    flex: 1 1;
+}
+
+.end{
+    display: flex;
+    gap: 2rem;
+    background-color: #81AF53;
+}
+
+.end .sub_end .heading{
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: .1rem solid #CED086;
+    color:rgba(255, 255, 255) ;
+}
+
+.end .sub_end .sub_heading{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: justify;
+}
+
+.footer{
+    background-color: #CED086;
+}
+
+.footer .heading{
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--color__font);
+    margin-bottom: 1rem;
+}
+
+.footer .input{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer .input .input_left{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 50%;
+}
+
+.footer .input .input_left input{
+    text-transform: capitalize;
+    padding: .5rem;
+    font-size: 1.3rem;
+}
+
+.footer .input .input_right{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 50%;
+}
+
+.footer .input .input_right input{
+    text-transform: capitalize;
+    padding: .5rem;
+    font-size: 1.3rem;
+}
+
+.footer .input .input_right .btn{
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #2A6E01;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+    
+
